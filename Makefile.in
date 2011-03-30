@@ -41,7 +41,7 @@ build_triplet = @build@
 host_triplet = @host@
 @USE_VERSION_RC_FALSE@libSDL_image_la_DEPENDENCIES =  \
 @USE_VERSION_RC_FALSE@	$(am__DEPENDENCIES_1)
-noinst_PROGRAMS = showimage$(EXEEXT)
+# noinst_PROGRAMS = showimage$(EXEEXT)
 subdir = .
 DIST_COMMON = README $(am__configure_deps) \
 	$(libSDL_imageinclude_HEADERS) $(srcdir)/Makefile.am \
